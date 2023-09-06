@@ -1,0 +1,36 @@
+2023-09-05T21:42:34+00:00 CRITICAL Uncaught Error: Call to undefined function th_shop_mania_footer_abv_post_meta() in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\footer.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-includes\template.php(785): require_once()
+#1 C:\xampp\htdocs\wish\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wish\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\woocommerce.php(67): get_footer()
+#4 C:\xampp\htdocs\wish\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wish\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\footer.php on line 33
+
+2023-09-05T21:43:27+00:00 CRITICAL Uncaught Error: Call to undefined function th_shop_mania_footer_abv_post_meta() in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\footer.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-includes\template.php(785): require_once()
+#1 C:\xampp\htdocs\wish\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wish\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\woocommerce.php(67): get_footer()
+#4 C:\xampp\htdocs\wish\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wish\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\footer.php on line 33
+
+2023-09-05T21:43:41+00:00 CRITICAL Uncaught Error: Call to undefined function th_shop_mania_footer_abv_post_meta() in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\footer.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-includes\template.php(785): require_once()
+#1 C:\xampp\htdocs\wish\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wish\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\woocommerce.php(67): get_footer()
+#4 C:\xampp\htdocs\wish\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wish\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\footer.php on line 33
+

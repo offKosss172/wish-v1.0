@@ -1,0 +1,72 @@
+2023-09-06T18:59:53+00:00 CRITICAL Uncaught Error: Call to undefined function th_shop_mania_footer_bottom_post_meta() in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\footer.php:35
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-includes\template.php(785): require_once()
+#1 C:\xampp\htdocs\wish\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wish\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\page.php(43): get_footer()
+#4 C:\xampp\htdocs\wish\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wish\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\footer.php on line 35
+
+2023-09-06T19:00:38+00:00 CRITICAL Uncaught Error: Call to undefined function th_shop_mania_footer_widget_post_meta() in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\footer.php:34
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-includes\template.php(785): require_once()
+#1 C:\xampp\htdocs\wish\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\wish\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\page.php(43): get_footer()
+#4 C:\xampp\htdocs\wish\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wish\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\footer.php on line 34
+
+2023-09-06T20:13:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\inc\footer-function.php on line 26 and at least 2 expected in C:\xampp\htdocs\wish\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\inc\footer-function.php(26): add_action('th_shop_mania_w...')
+#1 C:\xampp\htdocs\wish\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wish\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\wish\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\inc\init.php(10): get_template_part('inc/footer-func...')
+#5 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\functions.php(297): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wish\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wish\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wish\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wish\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wish\wp-includes\plugin.php on line 441
+
+2023-09-06T20:13:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\inc\footer-function.php on line 26 and at least 2 expected in C:\xampp\htdocs\wish\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\inc\footer-function.php(26): add_action('th_shop_mania_w...')
+#1 C:\xampp\htdocs\wish\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wish\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\wish\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\inc\init.php(10): get_template_part('inc/footer-func...')
+#5 C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\functions.php(297): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wish\wp-settings.php(600): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wish\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wish\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wish\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wish\wp-includes\plugin.php on line 441
+
+2023-09-06T21:26:27+00:00 CRITICAL Uncaught Error: Call to undefined function th_shop_mania_breadcrumb_trail() in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\woocommerce.php:56
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wish\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\woocommerce.php on line 56
+
+2023-09-06T21:26:47+00:00 CRITICAL Uncaught Error: Call to undefined function th_shop_mania_breadcrumb_trail() in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\woocommerce.php:56
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wish\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\themes\th-shop-mania\woocommerce.php on line 56
+

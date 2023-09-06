@@ -1,0 +1,63 @@
+
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0
+MySQL version 		: 10.4.27
+XML Reader 		: Yes
+PHP Version 		: 8.2.0
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 40M
+PHP Extension GD 	: No
+PHP Max Execution Time 	: 120
+Max Upload Size 	: 40 МБ
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: 3
+
+-----
+
+Importing Started! - 15:31:39 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://themehunk.com/
+
+---
+
+Importing from XML https://themehunk.com/wp-content/uploads/sites-demo/th-shop-mania/gutenberg/grocery-gutenberg.xml
+Imported Customizer Settings {"themehunk-settings":{"0":false,"nav_menu_locations":{"th-shop-mania-main-menu":24},"custom_css_post_id":769,"background_color":"f9f9f9","th_shop_mania_theme_clr":"#1d9122","th_shop_mania_product_single_sidebar_disable":true,"custom_logo":657,"title_disable":false,"tagline_disable":false},"custom-css":".wp-block-getwid-accordion .wp-block-getwid-accordion__header, .wp-block-getwid-accordion__content , footer{\n       background: #fff;\n}\n.wp-block-getwid-image-box__image-container .wp-block-getwid-image-box__image-wrapper img {\n    width: 120px;\n}\n.leadform-show-form h2{display:none}"}
+Imported - Site Options {"show_on_front":"page","page_for_posts":"","page_on_front":"Home","custom_logo":"https:\/\/wpthemes.themehunk.com\/grocery-gutenberg\/wp-content\/uploads\/sites\/226\/2022\/01\/logo-menia.png","nav_menu_locations":{"th-shop-mania-main-menu":"main"}}
+Imported - Widgets {"sidebar-1":{"media_image-2":{"size":"medium","width":461,"height":541,"caption":"","alt":"","link_type":"custom","link_url":"","image_classes":"","link_classes":"","link_rel":"","link_target_blank":false,"image_title":"","attachment_id":509,"url":"https:\/\/wpthemes.themehunk.com\/grocery-gutenberg\/wp-content\/uploads\/sites\/226\/2022\/01\/New_Project__2_-removebg-preview-256x300.png","title":""},"woocommerce_products-3":{"title":"Products","number":5,"show":"","orderby":"date","order":"desc","hide_free":0,"show_hidden":0},"categories-2":{"title":"","count":0,"hierarchical":0,"dropdown":0}},"top-header-widget-col1":{"text-4":{"title":"","text":"Free Shipping in 2023","filter":true,"visual":true},"text-5":{"title":"","text":"30 Days Easy Return","filter":true,"visual":true},"text-6":{"title":"","text":"Secure Payment Gateways","filter":true,"visual":true}},"footer-1":{"text-2":{"title":"Welcome","text":"Nullam tempor libero et massa molestie molestie. Aliquam vestibulum tellus quis vulputate euismod. Donec scelerisque pharetra magna tempor tempus. Donec sodales in nulla sit amet fringilla","filter":true,"visual":true}},"footer-2":{"woocommerce_products-2":{"title":"Products","number":2,"show":"","orderby":"date","order":"desc","hide_free":0,"show_hidden":0}},"footer-3":{"tag_cloud-2":{"title":"Tag Cloud","count":0,"taxonomy":"product_cat"}},"footer-4":{"text-3":{"title":"Contact Details","text":"Address: 3548 Columbia Mine Road,\r\nWheeling, West Virginia,\r\n26003\r\nContact : 304-559-3023\r\nE-mail : shopnow@store.com","filter":true,"visual":true}}}
+Complete 
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: WINNT
+Software 		: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.2.0
+MySQL version 		: 10.4.27
+XML Reader 		: Yes
+PHP Version 		: 8.2.0
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 40M
+PHP Extension GD 	: No
+PHP Max Execution Time 	: 120
+Max Upload Size 	: 40 МБ
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: 3
+
+-----
+
+Importing Started! - 15:48:48 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://themehunk.com/
+
+---
+
+Importing from XML https://themehunk.com/wp-content/uploads/sites-demo/th-shop-mania/gutenberg/fashion-guntenberg.xml
+Imported Customizer Settings {"themehunk-settings":{"0":false,"nav_menu_locations":{"th-shop-mania-main-menu":38},"custom_css_post_id":1516,"th_shop_mania_theme_clr":"#f788ab","custom_logo":1531,"title_disable":false,"tagline_disable":false,"th_shop_mania_product_single_sidebar_disable":true},"custom-css":"h2{line-height:1.3em;}\n.page-head{padding-bottom:0;}\nh2.lfb-heading {\n    display: none;\n}"}
+Imported - Site Options {"show_on_front":"page","page_for_posts":"Blog","page_on_front":"Home","custom_logo":"https:\/\/wpthemes.themehunk.com\/fashion-gutenberg\/wp-content\/uploads\/sites\/225\/2022\/03\/logo-gut.png","nav_menu_locations":{"th-shop-mania-main-menu":"main"}}
+Imported - Widgets {"sidebar-1":{"woocommerce_products-3":{"title":"Products","number":5,"show":"","orderby":"date","order":"desc","hide_free":0,"show_hidden":0},"media_image-2":{"size":"medium","width":407,"height":509,"caption":"","alt":"","link_type":"custom","link_url":"","image_classes":"","link_classes":"","link_rel":"","link_target_blank":false,"image_title":"","attachment_id":1075,"url":"https:\/\/wpthemes.themehunk.com\/fashion-gutenberg\/wp-content\/uploads\/sites\/225\/2021\/12\/banner-2-women-shop-240x300.png","title":""},"nav_menu-2":{"title":"End Points","nav_menu":37}},"footer-1":{"text-2":{"title":"Welcome","text":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.\r\n\r\n","filter":true,"visual":true}},"footer-2":{"woocommerce_products-2":{"title":"Products","number":2,"show":"","orderby":"date","order":"desc","hide_free":0,"show_hidden":0}},"footer-3":{"tag_cloud-2":{"title":"Tag Cloud","count":0,"taxonomy":"product_cat"}},"footer-4":{"text-3":{"title":"Contact Details","text":"Address: 3548 Columbia Mine Road,\r\n\r\nWheeling, West Virginia,\r\n\r\n26003\r\nE-mail : shopnow@open2.com\r\n\r\ncontact@open.com","filter":true,"visual":true}}}
+Complete 
