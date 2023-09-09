@@ -2791,7 +2791,7 @@
 		<content:encoded><![CDATA[.main-header:before {
     background: #ffffff;
 }
-.top-header, .main-header {
+.main-header {
     border-bottom: 1px solid #ebebeb;
 }]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>

@@ -1,0 +1,17 @@
+2023-09-09T00:59:00+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\Jetpack\Sync\Settings::is_custom_queue_table_enabled() in C:\xampp\htdocs\wish\wp-content\plugins\jetpack\jetpack_vendor\automattic\jetpack-sync\src\class-queue.php:64
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-content\plugins\jetpack\jetpack_vendor\automattic\jetpack-sync\src\class-sender.php(951): Automattic\Jetpack\Sync\Queue->__construct('sync')
+#1 C:\xampp\htdocs\wish\wp-content\plugins\jetpack\jetpack_vendor\automattic\jetpack-sync\src\class-sender.php(178): Automattic\Jetpack\Sync\Sender->set_defaults()
+#2 C:\xampp\htdocs\wish\wp-content\plugins\jetpack\jetpack_vendor\automattic\jetpack-sync\src\class-sender.php(164): Automattic\Jetpack\Sync\Sender->__construct()
+#3 C:\xampp\htdocs\wish\wp-content\plugins\jetpack\uninstall.php(46): Automattic\Jetpack\Sync\Sender::get_instance()
+#4 C:\xampp\htdocs\wish\wp-content\plugins\jetpack\uninstall.php(52): jetpack_uninstall()
+#5 C:\xampp\htdocs\wish\wp-admin\includes\plugin.php(1245): include_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wish\wp-admin\includes\plugin.php(960): uninstall_plugin('jetpack/jetpack...')
+#7 C:\xampp\htdocs\wish\wp-admin\includes\ajax-actions.php(4732): delete_plugins(Array)
+#8 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(310): wp_ajax_delete_plugin('')
+#9 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\wish\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\wish\wp-admin\admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\plugins\jetpack\jetpack_vendor\automattic\jetpack-sync\src\class-queue.php on line 64
+

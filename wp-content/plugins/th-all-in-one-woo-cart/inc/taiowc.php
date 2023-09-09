@@ -356,7 +356,7 @@ if ( ! class_exists( 'Taiowc' ) ):
 
                         </div>
 
-                        <div class="taiowc-contnet-wrap">
+                        <div class="taiowc-contnet-wrap" style="max-width: 250px;">
 
                         <?php echo esc_html($product_name); 
                         echo apply_filters( 'woocommerce_cart_item_rating', wc_get_rating_html( $average, $rating_count ), $cart_item, $cart_item_key ); ?>

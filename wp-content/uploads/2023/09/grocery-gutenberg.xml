@@ -364,9 +364,6 @@
 		</wp:termmeta>
 	</wp:term>
 			<wp:term><wp:term_id>24</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[main]]></wp:term_slug><wp:term_name><![CDATA[Main]]></wp:term_name>
-</wp:term>
-	<wp:term><wp:term_id>25</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[top-header]]></wp:term_slug><wp:term_name><![CDATA[top header]]></wp:term_name>
-</wp:term>
 
 	<generator>https://wordpress.org/?v=5.9.1</generator>
 
@@ -3601,9 +3598,7 @@ font-family:fontawesome;
 		<wp:menu_order>1</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="top-header"><![CDATA[top header]]></category>
-						<wp:postmeta>
+
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
@@ -3658,9 +3653,7 @@ font-family:fontawesome;
 		<wp:menu_order>2</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="top-header"><![CDATA[top header]]></category>
-						<wp:postmeta>
+
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
@@ -3715,9 +3708,7 @@ font-family:fontawesome;
 		<wp:menu_order>3</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="top-header"><![CDATA[top header]]></category>
-						<wp:postmeta>
+
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
 		</wp:postmeta>
