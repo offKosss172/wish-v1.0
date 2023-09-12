@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
     prevButton.addEventListener("click", prevSlide);
 
    
-    setInterval(nextSlide, 7000);
+    setInterval(nextSlide, 10000);
 
     
     updateSlide();
