@@ -38,18 +38,6 @@ Th Shop Mania Responsive Menu script
         $('#menu-btn,#mob-menu-btn,#menu-btn-abv,#menu-btn-btm,#menu-btn-stk').click(function(e){ 
             e.stopPropagation();
          });
-        // $('body').on("click vclick touchend", function(evt){ 
-        // evt.stopPropagation(); 
-        // if(evt.target.class == ".sider" || evt.target.class == ".thaps-search-autocomplete" || evt.target.class == ".tapsp-search-autocomplete")
-        //   return;
-        // if($(evt.target).closest('.sider').length || ($(evt.target).closest('input.thaps-search-autocomplete').length) || ($(evt.target).closest('input.tapsp-search-autocomplete').length) || ($(evt.target).closest('thaps-search-box').length) || ($(evt.target).closest('tapsp-search-box').length))
-        //   return; 
-        // if($(evt.target).hasClass("thaps-search-autocomplete") || $(evt.target).hasClass("tapsp-search-autocomplete") )
-        //   return;
-          
-        //   $('body').removeClass('mobile-menu-active'); 
-        //   $('body').removeClass('sticky-mobile-menu-active');
-        // });
 
          jQuery(".th-shop-mania-mobile-menu-wrapper").on("click", function(e){
             e.stopPropagation();
@@ -153,3 +141,4 @@ Th Shop Mania Responsive Menu script
         //End of Main function
     }
 })(jQuery);
+

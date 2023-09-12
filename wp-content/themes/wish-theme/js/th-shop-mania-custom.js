@@ -327,3 +327,4 @@ $(".menu-close-btn").keypress(function(){
    $('.th-shop-mania-menu a,.menu-close,.arrow').attr('tabindex',-1);
 });
 })(jQuery);
+

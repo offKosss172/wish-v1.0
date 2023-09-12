@@ -15,3 +15,78 @@ Stack trace:
 #12 {main}
   thrown in C:\xampp\htdocs\wish\wp-content\plugins\jetpack\jetpack_vendor\automattic\jetpack-sync\src\class-queue.php on line 64
 
+2023-09-09T21:06:15+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::set_order_number() in C:\xampp\htdocs\wish\wp-content\themes\wish-theme\functions.php:286
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(312): custom_order_number_format(1968)
+#1 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wish\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\data-stores\class-wc-order-data-store-cpt.php(103): do_action('woocommerce_new...', 1968, Object(WC_Order))
+#4 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(186): WC_Order_Data_Store_CPT->create(Object(WC_Order))
+#5 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(214): WC_Data_Store->create(Object(WC_Order))
+#6 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-order.php(252): WC_Abstract_Order->save()
+#7 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(449): WC_Order->save()
+#8 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#9 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(508): WC_Checkout->process_checkout()
+#10 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(310): WC_AJAX::checkout('')
+#11 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\wish\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(96): do_action('wc_ajax_checkou...')
+#14 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(310): WC_AJAX::do_wc_ajax('')
+#15 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(false, Array)
+#16 C:\xampp\htdocs\wish\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\wish\wp-includes\template-loader.php(13): do_action('template_redire...')
+#18 C:\xampp\htdocs\wish\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\themes\wish-theme\functions.php on line 286
+
+2023-09-09T21:06:30+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::set_order_number() in C:\xampp\htdocs\wish\wp-content\themes\wish-theme\functions.php:286
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(312): custom_order_number_format(1969)
+#1 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wish\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\data-stores\class-wc-order-data-store-cpt.php(103): do_action('woocommerce_new...', 1969, Object(WC_Order))
+#4 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(186): WC_Order_Data_Store_CPT->create(Object(WC_Order))
+#5 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(214): WC_Data_Store->create(Object(WC_Order))
+#6 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-order.php(252): WC_Abstract_Order->save()
+#7 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(449): WC_Order->save()
+#8 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#9 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(508): WC_Checkout->process_checkout()
+#10 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(310): WC_AJAX::checkout('')
+#11 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\wish\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(96): do_action('wc_ajax_checkou...')
+#14 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(310): WC_AJAX::do_wc_ajax('')
+#15 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(false, Array)
+#16 C:\xampp\htdocs\wish\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\wish\wp-includes\template-loader.php(13): do_action('template_redire...')
+#18 C:\xampp\htdocs\wish\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\themes\wish-theme\functions.php on line 286
+
+2023-09-09T21:08:00+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::set_order_number() in C:\xampp\htdocs\wish\wp-content\themes\wish-theme\functions.php:286
+Stack trace:
+#0 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(312): custom_order_number_format(1970)
+#1 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wish\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\data-stores\class-wc-order-data-store-cpt.php(103): do_action('woocommerce_new...', 1970, Object(WC_Order))
+#4 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(186): WC_Order_Data_Store_CPT->create(Object(WC_Order))
+#5 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(214): WC_Data_Store->create(Object(WC_Order))
+#6 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-order.php(252): WC_Abstract_Order->save()
+#7 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(449): WC_Order->save()
+#8 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1256): WC_Checkout->create_order(Array)
+#9 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(508): WC_Checkout->process_checkout()
+#10 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(310): WC_AJAX::checkout('')
+#11 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\wish\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wish\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(96): do_action('wc_ajax_checkou...')
+#14 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(310): WC_AJAX::do_wc_ajax('')
+#15 C:\xampp\htdocs\wish\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(false, Array)
+#16 C:\xampp\htdocs\wish\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#17 C:\xampp\htdocs\wish\wp-includes\template-loader.php(13): do_action('template_redire...')
+#18 C:\xampp\htdocs\wish\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\wish\index.php(17): require('C:\\xampp\\htdocs...')
+#20 {main}
+  thrown in C:\xampp\htdocs\wish\wp-content\themes\wish-theme\functions.php on line 286
+

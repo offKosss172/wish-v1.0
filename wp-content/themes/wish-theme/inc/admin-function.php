@@ -14,9 +14,10 @@
  */
 function th_shop_mania_custom_logo(){
     if ( function_exists( 'the_custom_logo' ) ){?>
-    	<a href="/" class="thunk-logo">
-        	<img src="/wp-content/themes/wish-theme/lib/icons/logo.png" alt="logo">
-		</a>
+    	<div class="thunk-logo">
+       
+		<a href="/"></a>
+		</div>
    <?php  }
 }
 endif;

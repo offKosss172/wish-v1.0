@@ -1,52 +1,21 @@
 <?php
-/**
- * Th Shop Mania functions and definitions
- *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package Th Shop Mania
- * @since 1.0.0
- */
-/**
- * Theme functions and definitions
- */
 
 if ( ! function_exists( 'th_shop_mania_setup' ) ) :
 define( 'TH_SHOP_MANIA_THEME_VERSION','1.0.0');
 define( 'TH_SHOP_MANIA_THEME_DIR', get_template_directory() . '/' );
 define( 'TH_SHOP_MANIA_THEME_URI', get_template_directory_uri() . '/' );
 define( 'TH_SHOP_MANIA_THEME_SETTINGS', 'th-shop-mania-settings' );
-	/**
-	 * Sets up theme defaults and registers support for various WordPress features.
-	 *
-	 * Note that this function is hooked into the after_th_shop_mania_setup_theme hook, which
-	 * runs before the init hook. The init hook is too late for some features, such
-	 * as indicating support for post thumbnails.
-	 */
+
 	function th_shop_mania_setup(){
-		/*
-		 * Make theme available for translation.
-		 */
+
 		load_theme_textdomain( 'th-shop-mania', get_template_directory() . '/languages' );
-		// Add default posts and comments RSS feed links to head.
+
 		add_theme_support( 'automatic-feed-links' );
-		/*
-		 * Let WordPress manage the document title.
-		 * By adding theme support, we declare that this theme does not use a
-		 * hard-coded <title> tag in the document head, and expect WordPress to
-		 * provide it for us.
-		 */
+
 		add_theme_support( 'title-tag' );
-		/*
-		 * Enable support for Post Thumbnails on posts and pages.
-		 *
-		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
-		 */
+
 		add_theme_support( 'post-thumbnails' );
-		/*
-		 * Switch default core markup for search form, comment form, and comments
-		 * to output valid HTML5.
-		 */
+
 		add_theme_support( 'html5', array(
 			'comment-form',
 			'comment-list',
@@ -68,11 +37,9 @@ define( 'TH_SHOP_MANIA_THEME_SETTINGS', 'th-shop-mania-settings' );
         add_editor_style( 'block-editor.css' );
         // Add support for responsive embedded content.
         add_theme_support( 'responsive-embeds' );
-		// Add theme support for selective refresh for widgets.
+
 		add_theme_support( 'customize-selective-refresh-widgets' );
-		/**
-		 * Add support for core custom logo.
-		 */
+
 		add_theme_support( 'custom-logo', array(
 			'height'      => 250,
 			'width'       => 250,
@@ -90,7 +57,7 @@ define( 'TH_SHOP_MANIA_THEME_SETTINGS', 'th-shop-mania-settings' );
 		) 
 
 		) );
-		// Add support for Custom Background.
+
          $args = array(
 	    'default-color' => 'f1f1f1',
         );
@@ -194,7 +161,6 @@ define( 'TH_SHOP_MANIA_THEME_SETTINGS', 'th-shop-mania-settings' );
             
         ) );
 
-       // Import Data Content plugins
         add_theme_support( 'import-demo-content', array(
              'hunk-companion' => array(
                 'name' => esc_html__( 'Hunk Companion', 'th-shop-mania' ),
@@ -268,3 +234,11 @@ if ( ! function_exists( 'wp_body_open' ) ) {
 
 // Add block patterns
 require get_template_directory() . '/inc/block-pattern.php';
+
+
+function custom_order_number_format($order_id) {
+    return 'CX' . str_pad($order_id, 10, '044537', STR_PAD_LEFT);
+}
+add_filter('woocommerce_order_number', 'custom_order_number_format');
+
+wp_enqueue_script('custom-script', get_stylesheet_directory_uri() . '/js/custom.js', array('jquery'), null, true);
