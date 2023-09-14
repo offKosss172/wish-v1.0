@@ -217,7 +217,7 @@ function top_store_mobile_navbar(){?>
      <?php 
     if( class_exists( 'YITH_WCWL' )) { ?>
     <li><a class="gethome" href="<?php echo esc_url( get_home_url() ); ?>"><i class="th-icon below th-icon-home" aria-hidden="true"></i></a></li>
-    <li><a class="whishlist" href="<?php echo esc_url( top_store_whishlist_url() ); ?>"><i  class="th-icon th-icon-heartline" aria-hidden="true"></i></a></li>
+    
     <?php } ?>
     <li>
             <a href="#" class="menu-btn" id="mob-menu-btn">

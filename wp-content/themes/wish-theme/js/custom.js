@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-   
+    if (window.location.pathname === '/') {
     const texts = [
         "Shopping here feels like receiving gifts every time. The product quality is beyond praise, and the prices are a steal.",
         "I've ordered here several times, and each time I was pleasantly surprised by the quality of the products. And the prices are truly low.",
@@ -69,5 +69,21 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(nextSlide, 10000);
 
     
-    updateSlide();
+    updateSlide(); }
 });
+
+
+jQuery(document).ready(function($) {
+    var $toggleButton = $('.translate-leng-icon');
+    var $translateBlock = $toggleButton.find('.translate-leng-country');
+    var $select = $translateBlock.find('.goog-te-combo');
+
+    $toggleButton.on('click', function() {
+        $translateBlock.css('display', 'block');
+    });
+
+    $select.on('change', function() {
+        $translateBlock.css('display', 'none');
+    });
+});
+

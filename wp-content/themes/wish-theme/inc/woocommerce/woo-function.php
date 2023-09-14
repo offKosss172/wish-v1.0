@@ -3,15 +3,7 @@
 if (!class_exists('WooCommerce')) {
   return;
 }
-if (!function_exists('th_shop_mania_whishlist_url')) {
-  function th_shop_mania_whishlist_url($argu = '')
-  {
-    $wishlist_page_id   =  get_option('yith_wcwl_wishlist_page_id');
-    $wishlist_permalink = get_the_permalink($wishlist_page_id);
-    return $wishlist_permalink;
-  }
-  add_filter('th_shop_mania_whishlist_url', 'th_shop_mania_whishlist_url');
-}
+
 // display admin name
 if (!function_exists('th_shop_mania_display_admin_name')) {
   function th_shop_mania_display_admin_name()

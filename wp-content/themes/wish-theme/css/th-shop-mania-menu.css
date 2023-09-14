@@ -149,15 +149,7 @@ background-color: #FFF;
     list-style: none;
     
 }
-.th-shop-mania-menu li ul.sub-menu li ul.sub-menu,
-.widget_nav_menu li ul.sub-menu li ul.sub-menu {
-    background-color: #FFF;
-    display: flex;
-    flex-wrap: wrap;
-    max-height: 50vh;
-    min-width: 400px;
-    max-width: 800px;
-}
+
 .th-shop-mania-menu ul.sub-menu li a,
 .widget_nav_menu ul.sub-menu li a {
     font-size: 14px; 

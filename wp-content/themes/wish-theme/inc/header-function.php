@@ -36,15 +36,15 @@ $th_shop_mania_pro_menu_effect = get_theme_mod('th_shop_mania_pro_menu_effect', 
           </div>
 					<div class="main-header-col3">
            <div class="thunk-icon-market">
-            <?php if ( defined( 'YITH_WCWL_SLUG' ) ) { ?>
-              <a class="whishlist" href="<?php echo esc_url(apply_filters('th_shop_mania_whishlist_url',' ','','')); ?>">
-       <span class="th-icon th-icon-heartline"></span></a> 
-     <?php } ?>
-
+           
+           <div class="translate-leng-icon"><div class="translate-leng-country"><?php echo do_shortcode('[google-translator]'); ?></div></div>
+     
         <?php do_action( 'th_shop_mania_account' ); 
         do_action( 'th_shop_mania_cart_total_item' ); 
         ?>
+        
           </div> 
+          
           </div>
 				</div> 
       </div>
@@ -77,12 +77,12 @@ $th_shop_mania_pro_menu_effect = get_theme_mod('th_shop_mania_pro_menu_effect', 
                     </button>
                 </div>
                 <?php if ( defined( 'YITH_WCWL_SLUG' ) ) { ?>
-                <div>
-                  <a class="whishlist" href="<?php echo esc_url(apply_filters('th_shop_mania_whishlist_url',' ','','')); ?>">
-                  <span class="th-icon th-icon-heartline"></span></a>
-                </div>
+               
               <?php } ?>
+              
+              <div class="translate-leng-icon"><div class="translate-leng-country"><?php echo do_shortcode('[google-translator]'); ?></div></div>
                 <div>
+                
                 <?php do_action( 'th_shop_mania_account' );  ?>
                 </div>
                 <?php do_action( 'th_shop_mania_cart_total_item' );  ?>

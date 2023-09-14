@@ -24,21 +24,6 @@ if(!function_exists('top_store_product_query')){
 
 }
 
-if(!function_exists('top_store_whishlist_check')){
-
-function top_store_whishlist_check($pid){
-      if( class_exists( 'YITH_WCWL' ) ){
-        echo top_store_whish_list($pid);
-        }elseif( class_exists( 'WPCleverWoosw' )){
-        echo top_store_wpc_whish_list($pid);          
-    }    
-        echo top_store_add_to_compare_fltr($pid);
-
-}
-
-}
-
-
 /********************************/
 //product cat filter loop
 /********************************/
@@ -102,8 +87,7 @@ $args = top_store_product_query($term_id,$prdct_optn);
                       <?php }
 
 
-            top_store_whishlist_check($pid);
-
+           
                        ?>
                    </div>
                    </div>
@@ -191,7 +175,7 @@ function top_store_product_filter_loop($args){
                         </div>
                       </div> 
                       <?php } 
-             top_store_whishlist_check($pid);
+             
 
                 ?>
 

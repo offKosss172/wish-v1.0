@@ -214,9 +214,7 @@ $args = open_shop_product_query($term_id,$prdct_optn);
             <div class="thunk-product-hover">     
                     <?php 
                       echo open_shop_add_to_cart_url($product);
-                      if(function_exists('open_shop_whishlist_check')){
-                      echo open_shop_whishlist_check($pid);
-                  }
+                      
                     ?>
             </div>
           </div>
@@ -295,9 +293,7 @@ function open_shop_product_filter_loop($args){
             <div class="thunk-product-hover">     
                     <?php 
                       echo open_shop_add_to_cart_url($product);
-                      if(function_exists('open_shop_whishlist_check')){
-                       open_shop_whishlist_check($pid);
-                   }
+                      
                     ?>
             </div>
           </div>
