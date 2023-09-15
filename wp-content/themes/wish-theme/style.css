@@ -8291,6 +8291,9 @@ article.thunk-article, article.thunk-post-article, .single article, .no-results.
     margin-right:0px;
     margin-bottom:15px;
     margin-top:7.5px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
 }
 /* Vertical Gallery Slider */
 .woocommerce .slick-track{
@@ -8820,6 +8823,11 @@ z-index: 10;
   #flags{
   display: none;
   }
+  .flex-control-nav li{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
   @media screen and (max-width: 1024px){
   .translate-leng-icon {
     margin-right: 0;
@@ -8887,3 +8895,4 @@ z-index: 10;
   max-height: 600px;
 }
 }
+
