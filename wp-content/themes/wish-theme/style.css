@@ -8818,7 +8818,7 @@ flex-direction: column;
   position: absolute;
   right: 30px;
   top: 26px;
-z-index: 10;
+  z-index: 10;
   }
   #flags{
   display: none;
@@ -8826,8 +8826,11 @@ z-index: 10;
   .flex-control-nav li{
     width: 150px;
     height: 150px;
-    overflow: hidden;
+    overflow: hidden;}
+  .woocommerce-order-details{
+    padding-top: 20px;
   }
+
   @media screen and (max-width: 1024px){
   .translate-leng-icon {
     margin-right: 0;
@@ -8895,4 +8898,94 @@ z-index: 10;
   max-height: 600px;
 }
 }
-
+ .sider-inner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}/*
+#th-shop-mania-menu{
+  display: flex;
+} */
+#th-shop-mania-menu li{
+ width: 130px;
+  text-align: center;
+}
+.th-shop-mania-menu li:nth-child(n+10):nth-child(-n+17) {
+  display: none;
+}
+.show-more-button, .extra-menu a{
+  position: relative;
+  margin: 0;
+    border: 0px;
+    font-size: 14px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    padding: 12px;
+    color: #111;
+  cursor: pointer;
+}
+@keyframes slideDownUp {
+  0% {
+    transform: translateY(5%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+.show-more-button{
+  width: 100px;
+  text-align: center;
+}
+.show-more-button .extra-menu{
+  position: absolute;
+  right: -20px;
+  top: 50px;
+  width: 185px;
+  z-index: 100;
+  background-color: #fff;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 4px 10px 0 rgba(3,3,3,.1);
+  transition: all 0.7s ease;
+  animation: slideDownUp 0.5s ease-in-out;
+  animation-fill-mode: both;
+}
+.show-more-button .extra-menu a:nth-child(n+1):nth-child(-n+2) {
+  display: none;
+}
+.show-more-button .extra-menu a{
+  width: 100%;
+  text-align: left;
+}
+@media screen and (max-width: 1335px){
+  .th-shop-mania-menu li:nth-child(9) {
+    display: none;
+  }
+  .show-more-button .extra-menu a:nth-child(n+2):nth-child(-n+2){
+    display: block;
+  }
+  .th-shop-mania-menu > li > a, .widget_nav_menu > li > a {
+    padding: 12px 0;
+}
+  #th-shop-mania-menu li{
+    width: 129px;
+     text-align: center;
+   }
+}
+@media screen and (max-width: 1190px){
+  .th-shop-mania-menu li:nth-child(8) {
+    display: none;
+  }
+  .show-more-button .extra-menu a:nth-child(n+1):nth-child(-n+2){
+    display: block;
+  }
+  #th-shop-mania-menu li{
+    width: 124px;
+     text-align: center;
+   }
+}

@@ -87,3 +87,44 @@ jQuery(document).ready(function($) {
     });
 });
 
+
+function redirectToYouTube(orderNumber, totalCost) {
+	
+	var url = `https://www.youtube.com/click/?origin={origin}&ap1=${orderNumber}&ap2=${totalCost}`;
+	
+	
+	window.open(url, '_blank');
+  }
+document.addEventListener("DOMContentLoaded", function () {
+    var currentUrl = window.location.href;
+    if (currentUrl.indexOf("/checkout/order-received/") !== -1) {
+
+      var orderNumberElement = document.querySelector('.woocommerce-order-overview__order strong');
+      var totalCostElement = document.querySelector('.woocommerce-order-overview__total span');
+      var orderNumber = orderNumberElement.textContent.trim();
+      var totalCost = totalCostElement.textContent.trim();
+      
+      totalCost = totalCost.replace('€', '').trim();
+      
+      document.getElementById('paymant_order_link').addEventListener('click', function() {
+        redirectToYouTube(orderNumber, totalCost);
+      });
+    }
+  });
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    var showMoreButton = document.querySelector(".show-more-button");
+    var extraMenu = document.querySelector(".extra-menu");
+  
+    // Обработчик наведения мыши
+    showMoreButton.addEventListener("mouseover", function () {
+      extraMenu.style.display = "flex";
+    });
+  
+    // Обработчик отведения мыши
+    showMoreButton.addEventListener("mouseout", function () {
+      extraMenu.style.display = "none";
+    });
+  });
+  
+  

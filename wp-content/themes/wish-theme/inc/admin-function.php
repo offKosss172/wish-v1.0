@@ -54,6 +54,8 @@ function th_shop_mania_add_classes_to_page_menu_default( $ulclass ){
 return preg_replace( '/<ul>/', '<ul class="th-shop-mania-menu" data-menu-style="horizontal">', $ulclass, 1 );
 }
 add_filter( 'wp_page_menu', 'th_shop_mania_add_classes_to_page_menu_default' );
+
+
 /************************/
 // description Menu
 /************************/

@@ -77,24 +77,7 @@ if ( $show_downloads ) {
 			?>
 		</tbody>
 
-		<tfoot>
-			<?php
-			foreach ( $order->get_order_item_totals() as $key => $total ) {
-				?>
-					<tr>
-						<th scope="row"><?php echo esc_html( $total['label'] ); ?></th>
-						<td><?php echo wp_kses_post( $total['value'] ); ?></td>
-					</tr>
-					<?php
-			}
-			?>
-			<?php if ( $order->get_customer_note() ) : ?>
-				<tr>
-					<th><?php esc_html_e( 'Note:', 'woocommerce' ); ?></th>
-					<td><?php echo wp_kses_post( nl2br( wptexturize( $order->get_customer_note() ) ) ); ?></td>
-				</tr>
-			<?php endif; ?>
-		</tfoot>
+
 	</table>
 
 	<?php do_action( 'woocommerce_order_details_after_order_table', $order ); ?>

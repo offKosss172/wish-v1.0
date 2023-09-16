@@ -130,6 +130,20 @@ $th_shop_mania_pro_menu_effect = get_theme_mod('th_shop_mania_pro_menu_effect', 
                  'link_before' => '<span>',
                  'link_after'  => '</span>'));
              }?>
+
+        <div class="show-more-button">See more<div class="extra-menu"> 
+              <a href="/product-category/home-and-garden/">Home & Garden</a>
+              <a href="/product-category/gadgets/">Gadgets</a>
+              <a href="/product-category/tools/">Tools</a>
+              <a href="/product-category/drinks-and-smokes">Drinks and Smokes</a>
+              <a href="/product-category/health-and-beauty/">Health and Beauty</a>
+              <a href="/product-category/home-improvement">Home Improvement</a>
+              <a href="/product-category/art-and-craft-supplies">Art and Craft Supplies</a>
+              <a href="/product-category/toys-and-hobbies">Toys and Hobbies</a>
+              <a href="/product-category/sports-and-outdoor-gear">Sports and Outdoor Gear</a>
+              <a href="/product-category/automotive-accessories">Automotive Accessories</a> 
+        </div></div>
+
         </div>
         </div>
         </nav>

@@ -242,3 +242,7 @@ function custom_order_number_format($order_id) {
 add_filter('woocommerce_order_number', 'custom_order_number_format');
 
 wp_enqueue_script('custom-script', get_stylesheet_directory_uri() . '/js/custom.js', array('jquery'), null, true);
+
+
+
+  
